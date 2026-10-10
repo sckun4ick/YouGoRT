@@ -102,10 +102,154 @@ header{
             align-items: center;
 
             a{
+                text-decoration: none;
                 font-family: 'Jost';
                 color: #282739;
                 font-size: 30px;
                 font-weight: 400;
+            }
+
+            
+            button{
+                width: max-content;
+                height: 50%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                padding: 3%;
+                border-style: none;
+                border-radius: 5px;
+                gap: 1vw;
+
+                background: #6F73EE;
+
+                font-family: 'Jost';
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+
+                transition: 0.5s all ease;
+                cursor: pointer;
+                &:hover{
+                    background: #9a9df3;
+                    transform: translateY(10px);
+                }
+            }
+
+            form{
+                width: 50%;
+                height: 60%;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                border-radius: 5px;
+                border: 1.5px solid #6F73EE;
+
+
+                button:nth-child(1){
+                    width: 30%;
+                    height: 90%;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    background: #F4F7FB;
+                    border-style: none;
+                    border-radius: 5px;
+
+                    font-family: 'Jost';
+                    color: #282739;
+                    font-size: 14px;
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+
+                input{
+                    width: 60%;
+                    height: 100%;
+
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    border-style: none;
+                    
+
+                }
+
+                button:nth-child(1){
+                    width: 10%;
+                    height: 100%;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    background: #6F73EE;
+                    border-style: none;
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+
+                    cursor: pointer;
+                    transition: 0.5s all ease;
+                    &:hover{
+                        background: #9a9df3;
+                        transform: translateY(10px);
+                    }
+                }
+            }
+
+            div{
+                width: 30%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                button{
+                    width: 20px;
+                    height: 20px;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-style: none;
+                    background: transparent;
+
+                    transition: 0.5s all ease;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
+
+                button:last-child(){
+                    width: 30%;
+                    height: auto;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-style: none;
+                    background: transparent;
+
+                    font-family: 'Jost';
+                    color: #282739;
+                    font-size: 14px;
+                    font-weight: 400;   
+
+                    gap: 1vw;
+                    transition: 0.5s all ease;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
             }
         }
     }
