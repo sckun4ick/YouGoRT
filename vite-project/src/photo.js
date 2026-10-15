@@ -9,6 +9,8 @@ import shop from './assets/icons/Header/3poloski.svg'
 import downArrowH from './assets/icons/Header/Polygon 2.svg'
 import search from './assets/icons/Header/search.svg'
 
+import arrow from './assets/icons/Page1/Section1/Arrow 2.svg'
+
 export const Photo = {
   plus: plus,
   telegram: telegram,
@@ -20,4 +22,5 @@ export const Photo = {
   shop: shop,
   downArrowH: downArrowH,
   search: search,
+  arrow:arrow,
 }

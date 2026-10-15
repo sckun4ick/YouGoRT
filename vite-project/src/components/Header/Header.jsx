@@ -10,9 +10,9 @@ function App() {
             <div className="verh">
                 <div className="center">
                     <div className="left">
-                        <Link>Сервис</Link>
-                        <Link>Сотрудничество</Link>
-                        <Link>Заказать звонок</Link>
+                        <Link to="/">Сервис</Link>
+                        <Link to="/">Сотрудничество</Link>
+                        <Link to="/">Заказать звонок</Link>
                         <div>
                             <button><img src={Photo.viber} alt="" /></button>
                             <button><img src={Photo.whatsapp} alt="" /></button>
@@ -24,8 +24,8 @@ function App() {
             </div>
             <nav>
                 <div className="center">
-                    <Link>Kugoo</Link>
-                    <button><img src={Photo.shop} alt="" />Каталог</button>
+                    <Link to="">Kugoo</Link>
+                    <button className='mmm'><img src={Photo.shop} alt="" />Каталог</button>
                     <form action="">
                         <button>Везде<img src={Photo.downArrowH} alt="" /></button>
                         <input type="text" placeholder='Искать самокат KUGO'/>
@@ -40,12 +40,12 @@ function App() {
             </nav>
             <div className="niz">
                 <div className="center">
-                    <Link>О магазине</Link>
-                    <Link>Доставка и оплата<span>Доступна рассрочка</span></Link>
-                    <Link>Тест-драйв</Link>
-                    <Link>Блог</Link>
-                    <Link>Контакты</Link>
-                    <Link>Акции<span>%</span></Link>
+                    <Link to="/">О магазине</Link>
+                    <Link to="/">Доставка и оплата<span>Доступна рассрочка</span></Link>
+                    <Link to="/">Тест-драйв</Link>
+                    <Link to="/">Блог</Link>
+                    <Link to="/">Контакты</Link>
+                    <Link to="/">Акции<span>%</span></Link>
                 </div>      
             </div>
         </header>
